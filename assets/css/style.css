@@ -76,7 +76,9 @@ ul,ol{
     color: #FFFFFF;
 }
 /*==================== banner part end =================*/
-/* service part start  */
+
+
+/*====================== service part start =================*/
 .service_part_main {
     margin-bottom: 60px;
 }
@@ -94,10 +96,10 @@ ul,ol{
 hr {
     margin-bottom: 60px;
 }
-/* service part end  */
+/*========================= service part end =========================*/
 
 
-/* latest part start  */
+/*================================= latest part start ==============================*/
 .top_head h2 {
     font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -118,8 +120,19 @@ hr {
     color: #a8a8a8;
     padding-bottom: 10px;
 }
-.card-text{
+.card-body p{
     font-size: 14px;
     color: #5c5c5c;
+    font-family: 'Roboto', sans-serif;
 }
-/* latest part end  */
+/*============================ latest part end =============================*/
+
+/*========= comment part start ===========*/
+.comment {
+    font-size: 20px;
+    color: #a1a1a1;
+    font-family: 'Roboto Slab', serif;
+    background: #efefef;
+/*======== comment part end ==============*/
+
+}
