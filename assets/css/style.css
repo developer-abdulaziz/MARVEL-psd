@@ -45,15 +45,14 @@ ul,ol{
 }
 
 
-/* banner part start  */
+/*=============== banner part start  ==================*/
 .banner_part_main {
     background-image: url(/assets/image/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     padding: 200px 0px;
-
+    margin-bottom: 100px;
 }
-
 .banner_heading h2 {
     color: #f3f3f3;
     font-size: 40px;
@@ -76,4 +75,32 @@ ul,ol{
     background-color: #3aeb6680;
     color: #FFFFFF;
 }
-/* banner part end */
+/*==================== banner part end =================*/
+/* service part start  */
+.service_part_main {
+    margin-bottom: 60px;
+}
+.service_part h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: var(--bg-color);
+}
+.service_part p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #616161;
+    text-align: center;
+}
+hr {
+    margin-bottom: 60px;
+}
+/* service part end  */
+
+/* .immmg {
+    width: 50px;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
