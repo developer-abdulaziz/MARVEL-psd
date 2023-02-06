@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MARVEL</title>
+    <!-- boxicon link  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- bootstrap link  -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- css link  -->
@@ -80,7 +85,7 @@
             <!-- card one  -->
             <div class="col-lg-3 mb-3">
               <div
-                class="service_part d-flex flex-column align-items-center justify-content-center gap-2"
+                class="service_box d-flex flex-column align-items-center justify-content-center gap-2"
               >
                 <img class="img-fluid" src="assets/image/lights.jpg" alt="" />
                 <h5>Pellentesque</h5>
@@ -94,7 +99,7 @@
             <!-- card two  -->
             <div class="col-lg-3 mb-3">
               <div
-                class="service_part d-flex flex-column align-items-center justify-content-center gap-2"
+                class="service_box d-flex flex-column align-items-center justify-content-center gap-2"
               >
                 <img class="" src="assets/image/clock.jpg" alt="" />
                 <h5>Consectetur</h5>
@@ -108,7 +113,7 @@
             <!-- card three  -->
             <div class="col-lg-3 mb-3">
               <div
-                class="service_part d-flex flex-column align-items-center justify-content-center gap-2"
+                class="service_box d-flex flex-column align-items-center justify-content-center gap-2"
               >
                 <img src="assets/image/tube.jpg" alt="" />
                 <h5>Tristiquet</h5>
@@ -122,7 +127,7 @@
             <!-- card four  -->
             <div class="col-lg-3">
               <div
-                class="service_part d-flex flex-column align-items-center justify-content-center gap-2"
+                class="service_box d-flex flex-column align-items-center justify-content-center gap-2"
               >
                 <img class="" src="assets/image/card.jpg" alt="" />
                 <h5>Fermentum</h5>
@@ -150,7 +155,7 @@
               <div
                 class="col-lg-4 d-flex flex-column align-items-center justify-content-center mb-5"
               >
-                <div class="latest me-3">
+                <div class="latest_work me-3">
                   <div class="">
                     <img
                       src="assets/image/latest01.png"
@@ -172,7 +177,7 @@
               <div
                 class="col-lg-4 d-flex flex-column align-items-center justify-content-center mb-5"
               >
-                <div class="latest me-3">
+                <div class="latest_work me-3">
                   <div class="">
                     <img
                       src="assets/image/latest02.png"
@@ -194,7 +199,7 @@
               <div
                 class="col-lg-4 d-flex flex-column align-items-center justify-content-center mb-5"
               >
-                <div class="latest me-3">
+                <div class="latest_work me-3">
                   <div class="">
                     <img
                       src="assets/image/latest03.png"
@@ -218,21 +223,87 @@
       </section>
       <!------------- latest part end   ----------------->
 
-      <!------------------- comment part start  -------------->
-      <section class="comment p-5 d-flex flex-column align-items-center justify-content-center gap-4">
-        <img src="./assets/image/blokquet.png" alt="">
+      <!------------------- testimonial comment part start  -------------->
+      <section
+        class="testimonial_comment p-5 d-flex flex-column align-items-center justify-content-center gap-4 mb-5"
+      >
+        <img src="./assets/image/blokquet.png" alt="" />
         <div class="text-center">
-          <p
-            >Cras mattis consectetur purus sit amet fermentum. Donec id elit non
+          <p>
+            Cras mattis consectetur purus sit amet fermentum. Donec id elit non
             mi porta <br />
             gravida at eget metus. Duis mollis, est non commodo luctus erat
             porttitor.
           </p>
         </div>
       </section>
-      <!---------------------- comment part end ---------------->
+      <!---------------------- testimonial comment part end ---------------->
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                 <div class="f-get-in-touch">
+                 <h1>Get in touch</h1>
+                  <p>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna. </p>
+                  <div class="f-location">
+                    <i class='bx bx-location-plus'></i>
+                      <span>Moonshine Street No: 14/05</span>
+                         <span> Light City, Jupiter</span>
+                  </div>
+                  <div class="f-phone">
+                    <i class='bx bxs-phone-call'></i>
+                      <span> <a href="tel:02475416587">0247 541 65 87</a></span>
+                  </div>
+                  <div class="f-email">
+                    <i class='bx bx-envelope' ></i>
+                      <span> <a href="mailto:support@longwave.com">support@longwave.com</a></span>
+                  </div>
+                 </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="twitter-post">
+                      <h1>Twitter</h1>
+                      <ul>
+                          <li>Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.</li>
+                          <li>Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</li>
+                          <li>Vestibulum id ligula porta  euismod semper. Maecenas faucibus mollis.</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="popular-post">
+                      <h1>Popular Posts</h1>
+                      <ul>
+                          <li>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.
+                              <span>14 Nov, 2012</span>
+                          </li>
+                          <li>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.
+                              <span>14 Nov, 2012</span>
+                          </li>
+                          <li>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor.
+                              <span>14 Nov, 2012</span>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="f-about-us">
+                      <h1>About us</h1>
+                      <p>Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+                      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus curabitur blandit tempus.</p>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="copyright">
+              © 2023 Marble. All rights reserved. Theme by Md Abdul Aziz.
+          </div>
+      </div>
+  </footer>
+  
+    <!-- boxicon_js link  -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <!-- js bootstrap link  -->
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

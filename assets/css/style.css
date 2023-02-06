@@ -25,8 +25,10 @@ ul,ol{
 } */
 :root {
     --bg-color:#4e4e4e;
+    --ffamily1:'Roboto Condensed', sans-serif;
+    --ffamily2:'Roboto Slab', serif;
+    --ffamily3:'Roboto', sans-serif;
 }
-
 
 .logo a {
     color: var(--bg-color);
@@ -82,12 +84,21 @@ ul,ol{
 .service_part_main {
     margin-bottom: 60px;
 }
-.service_part h5{
+.service_box {
+    transition: all .3s ease 0s;
+}
+.service_box:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: translateY(-25px);
+    padding:  8px;
+    border-radius: 5px;
+}
+.service_box h5{
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
     color: var(--bg-color);
 }
-.service_part p {
+.service_box p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #616161;
@@ -108,6 +119,13 @@ hr {
     
 }
 
+.latest_work{
+    transition: all .3s ease 0s;
+}
+.latest_work:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
 .card-title {
     color: var(--bg-color);
     font-family: 'Roboto Slab', serif;
@@ -128,11 +146,137 @@ hr {
 /*============================ latest part end =============================*/
 
 /*========= comment part start ===========*/
-.comment {
+.testimonial_comment {
     font-size: 20px;
     color: #a1a1a1;
     font-family: 'Roboto Slab', serif;
     background: #efefef;
+}
 /*======== comment part end ==============*/
 
+
+footer{
+    background-color: #1e1e1e;
+    padding: 50px 0;
+    font-family: var(--ffamily3);
+    color: white;
+}
+.f-get-in-touch{
+    margin-right: 20px;
+}
+.f-get-in-touch h1{
+    color: #6c6c6c;
+    font-family: var(--ffamily1);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.f-get-in-touch p{
+    color: #cacaca;
+    font-family: var(--ffamily3);
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+    /* text-align: justify; */
+}
+.f-location{
+    margin-top: 10px;
+}
+.f-location i, .f-email i, .f-phone i{ 
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: pink;
+    /* color: red; */
+    padding-right: 2px;
+}
+.f-location span{
+    font-size: 14px;
+    font-family: var(--ffamily3);
+}
+.f-email span a, .f-phone span a {
+    font-size: 14px;
+    font-family: var(--ffamily3);
+    color: white;
+}
+.f-location span:nth-child(3){
+    padding-left: 22px;
+}
+.twitter-post{
+    margin-right: 20px;
+}
+.twitter-post h1{
+    color: #6c6c6c;
+    font-family: var(--ffamily1);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.twitter-post ul{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: var(--ffamily3);
+    padding: 0;
+    padding-left: 10px;
+    list-style:url(/assets/image/twitter.svg) ;
+}
+.twitter-post ul li{
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #cacaca;
+}
+.popular-post h1{
+    color: #6c6c6c;
+    font-family: var(--ffamily1);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.popular-post ul{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: var(--ffamily3);
+    list-style: none;
+    padding: 0px;
+}
+.popular-post ul li{
+    font-size: 14px;
+    color:#cacaca;
+    font-weight: normal;
+    line-height: 25px;
+    margin-top: 30px;
+    font-family: var(--ffamily3);
+}
+.popular-post ul li:first-child{
+    margin-top: 0px;
+}
+.popular-post ul li span{
+    display: block;
+    font-size: 12px;
+    font-family: var(--ffamily2);
+    font-weight: bold;
+}
+
+.f-about-us h1{
+    color: #6c6c6c;
+    font-family: var(--ffamily1);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.f-about-us p{
+    color: #cacaca;
+    font-family: var(--ffamily3);
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.copyright{
+    color: #cacaca;
+    font-family: var(--ffamily3);
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 10px;
 }
